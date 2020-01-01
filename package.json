@@ -1,0 +1,16 @@
+{
+  "name": "jest-mocking-global-test",
+  "version": "0.0.0",
+  "description": "test area for jest mock - overriade globals - AbsoluteOrientationSensor",
+  "main": "teste.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  }
+}
