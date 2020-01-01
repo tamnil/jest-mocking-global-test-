@@ -1,9 +1,13 @@
+import { thirdLv } from "./thirdLevelCall";
 const secLv = () => {
-    let fsec = new AbsoluteOrientationSensor();
+  // call 3rd level:
+  thirdLv();
 
-console.log('created new sensor absolute')
+  let fsec = new AbsoluteOrientationSensor();
 
-    return fsec;
+  // console.log('created new sensor absolute')
+
+  return fsec;
 };
 
 module.exports = { secLv };
